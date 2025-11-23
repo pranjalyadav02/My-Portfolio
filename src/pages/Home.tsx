@@ -6,6 +6,8 @@ import { useState } from "react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Home = () => {
+  const [showResume, setShowResume] = useState(false);
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -26,7 +28,7 @@ const Home = () => {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Button asChild variant="default" size="lg">
-              <Link to="/projects">View Projects</Link>
+              <Link to="/assignments">View Assignments</Link>
             </Button>
             <Button asChild variant="secondary" size="lg">
               <Link to="/connect">Get in Touch</Link>
