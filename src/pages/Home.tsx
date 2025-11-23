@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { GraduationCap, Code, Award, Mail } from "lucide-react";
+import { GraduationCap, Code, Award, Mail, FileText } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Home = () => {
@@ -83,7 +84,7 @@ const Home = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-12 text-center font-serif">Explore More</h2>
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <Card className="p-6 text-center hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold mb-3">Assignments</h3>
               <p className="text-muted-foreground mb-4">
@@ -113,9 +114,39 @@ const Home = () => {
                 <Link to="/projects">View Projects</Link>
               </Button>
             </Card>
+
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+              <FileText className="mx-auto mb-3 h-8 w-8 text-primary" />
+              <h3 className="text-xl font-semibold mb-3">Resume</h3>
+              <p className="text-muted-foreground mb-4">Download or preview my resume (PDF)</p>
+              <div className="flex justify-center gap-2">
+                <Button asChild variant="outline">
+                  <a href="/Resume_Pranjal_Yadav.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+                </Button>
+                <Button variant="secondary" onClick={() => setShowResume((s) => !s)}>
+                  Preview
+                </Button>
+              </div>
+            </Card>
           </div>
         </div>
       </section>
+
+      {showResume && (
+        <section className="py-8">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <Card className="p-4">
+                <iframe
+                  src="/Resume_Pranjal_Yadav.pdf"
+                  title="Resume Preview"
+                  className="w-full h-[80vh] border-0"
+                />
+              </Card>
+            </div>
+          </div>
+        </section>
+      )}
     </div>
   );
 };

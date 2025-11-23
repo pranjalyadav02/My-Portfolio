@@ -1,37 +1,30 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Github, Linkedin, Twitter, ExternalLink } from "lucide-react";
+import { Mail, Github, Linkedin, ExternalLink } from "lucide-react";
 
 const Connect = () => {
   const socialLinks = [
     {
       icon: Github,
       label: "GitHub",
-      username: "@pranjalyadav",
-      href: "https://github.com/pranjalyadav",
+      username: "pranjalyadav02",
+      href: "https://github.com/pranjalyadav02",
       description: "Check out my code repositories"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       username: "Pranjal Yadav",
-      href: "https://linkedin.com/in/pranjalyadav",
+      href: "https://www.linkedin.com/in/pranjal-yadav-38ba17328/",
       description: "Connect professionally"
     },
     {
       icon: Mail,
       label: "Email",
-      username: "pranjal@example.com",
-      href: "mailto:pranjal@example.com",
+      username: "pranjaliips68@gmail.com",
+      href: "mailto:pranjaliips68@gmail.com",
       description: "Send me an email"
-    },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      username: "@pranjalyadav",
-      href: "https://twitter.com/pranjalyadav",
-      description: "Follow me on Twitter"
-    },
+    }
   ];
 
   return (
@@ -87,7 +80,7 @@ const Connect = () => {
               any of the platforms above!
             </p>
             <Button asChild size="lg">
-              <a href="mailto:pranjal@example.com">
+              <a href="mailto:pranjaliips68@gmail.com">
                 <Mail className="h-5 w-5 mr-2" />
                 Send Email
               </a>

@@ -1,22 +1,24 @@
-# Welcome to your Lovable project
+# Pranjal Yadav — Portfolio
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/d271682f-d1d7-4f4a-bbad-923aec72dddd
+This repository contains the source for the personal portfolio of Pranjal Yadav.
 
-## How can I edit this code?
+## Contact
 
-There are several ways of editing your application.
+- **GitHub**: [@pranjalyadav02](https://github.com/pranjalyadav02)
+- **Email**: [pranjaliips68@gmail.com](mailto:pranjaliips68@gmail.com)
+- **LinkedIn**: [Pranjal Yadav](https://www.linkedin.com/in/pranjal-yadav-38ba17328/)
 
-**Use Lovable**
+**Edit a file directly in GitHub**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d271682f-d1d7-4f4a-bbad-923aec72dddd) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit them.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -40,15 +42,12 @@ npm run dev
 
 - Navigate to the desired file(s).
 - Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Make your changes and commit them.
 
 **Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Launch a new Codespace from the repository "Code" menu.
+- Edit files directly within the Codespace and commit and push your changes when you're done.
 
 ## What technologies are used for this project?
 
@@ -62,12 +61,6 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/d271682f-d1d7-4f4a-bbad-923aec72dddd) and click on Share -> Publish.
+Deploy this project to your preferred hosting provider (Vercel, Netlify, Cloudflare Pages, etc.).
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+If you use a platform that supports Git deploys, push to your repo and connect the repository in the hosting dashboard.
