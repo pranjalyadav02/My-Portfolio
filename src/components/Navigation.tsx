@@ -2,6 +2,7 @@ import { NavLink } from "./NavLink";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
+import ThemeToggle from "./ThemeToggle";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,6 +35,7 @@ const Navigation = () => {
                 {link.label}
               </NavLink>
             ))}
+            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}
@@ -61,6 +63,9 @@ const Navigation = () => {
                 {link.label}
               </NavLink>
             ))}
+            <div className="pt-2">
+              <ThemeToggle />
+            </div>
           </div>
         )}
       </div>

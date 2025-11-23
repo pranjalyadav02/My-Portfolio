@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { GraduationCap, Code, Award, Mail, FileText } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import heroBg from "@/assets/hero-bg.jpg";
+import FooterStats from "@/components/FooterStats";
 
 const Home = () => {
   const [showResume, setShowResume] = useState(false);
@@ -11,14 +11,13 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section 
-        className="relative min-h-[80vh] flex items-center justify-center"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroBg})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
+      <section className="hero-bg relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+        {/* Decorative background layers (gradient, lines, dots) */}
+        <div className="bg-gradient-layer aria-hidden">
+          <div className="gradient" />
+          <div className="lines" />
+          <div className="dots" />
+        </div>
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 font-serif">
             Pranjal Yadav
@@ -149,6 +148,8 @@ const Home = () => {
           </div>
         </section>
       )}
+
+      <FooterStats />
     </div>
   );
 };
