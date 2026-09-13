@@ -286,9 +286,9 @@ export const FEATURED_PROJECTS: Project[] = [
       "Team collaboration and rapid system prototyping during hackathon"
     ],
     githubUrl: "https://github.com/pranjalyadav02",
-    badge: "Smart India Hackathon Participant",
+    badge: "SIH College Qualifier",
     featuredRank: 5,
-    roleNote: "Collaborative hackathon project built as a team under Smart India Hackathon."
+    roleNote: "Collaborative hackathon project; selected & qualified at the college/institute screening round for Smart India Hackathon."
   }
 ];
 
@@ -345,9 +345,15 @@ export const CERTIFICATIONS: CertificationItem[] = [
 
 export const ACHIEVEMENTS: AchievementItem[] = [
   {
-    title: "Smart India Hackathon — Participant",
-    badge: "SIH Participant",
-    event: "Smart India Hackathon",
-    description: "Participated in Smart India Hackathon and worked in a collaborative team on an Alumni Connection Portal aimed at bridging the gap between collegiate students and experienced alumni."
+    title: "Smart India Hackathon (SIH) — College-Level Qualifier",
+    badge: "College Qualifier",
+    event: "Smart India Hackathon Internal Screening",
+    description: "Successfully qualified through the competitive college-level internal screening round for Smart India Hackathon by conceptualizing and presenting the Alumni Connection Portal with teammates."
+  },
+  {
+    title: "Collegiate & Departmental Hackathons — Participant",
+    badge: "Hackathon Participant",
+    event: "Campus & Collegiate Competitions",
+    description: "Participated in multiple college-level hackathons and technical competitions, collaborating in teams to rapidly design, prototype, and build practical software systems under time-constrained sprints."
   }
 ];

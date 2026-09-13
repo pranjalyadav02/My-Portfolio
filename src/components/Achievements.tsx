@@ -38,7 +38,7 @@ export default function Achievements() {
                     {ach.badge}
                   </Badge>
                   <span className="text-xs font-mono text-muted-foreground">
-                    National Level Innovation Competition
+                    {ach.event}
                   </span>
                 </div>
 
