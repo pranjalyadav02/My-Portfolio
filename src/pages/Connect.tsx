@@ -14,8 +14,8 @@ const Connect = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      username: "Pranjal Yadav",
-      href: "https://www.linkedin.com/in/pranjal-yadav-38ba17328/",
+      username: "pranjal-yadav",
+      href: "https://in.linkedin.com/in/pranjal-yadav-38ba17328",
       description: "Connect professionally"
     },
     {

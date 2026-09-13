@@ -61,7 +61,7 @@ export const PERSONAL_INFO = {
   cgpa: "6th Semester CGPA: 7.83 / 10",
   email: "pranjaliips68@gmail.com",
   github: "https://github.com/pranjalyadav02",
-  linkedin: "https://www.linkedin.com/in/pranjal-yadav-38ba17328/",
+  linkedin: "https://in.linkedin.com/in/pranjal-yadav-38ba17328",
   heroHeadline: "Building technology that solves real problems.",
   heroSubheadline: "5-Year Integrated MCA student at IIPS, DAVV, focused on software development, practical systems and AI integration. I enjoy turning real-world problems into usable, accessible and meaningful software.",
   corePhilosophy: "I build systems that are meant to be used, not just demonstrated.",
